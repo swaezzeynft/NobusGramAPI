@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "bc7ab81f-1459-40c6-acf6-084fc0a00c2e",
+		"name": "CUSTOM IG API FOR IDIOTS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23794872"
+	},
+	"item": [
+		{
+			"name": "GET USER INFOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getuserinfo.php?username=laurenxburch",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getuserinfo.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "laurenxburch"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET USER POSTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getuserposts.php?username=laurenxburch",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getuserposts.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "laurenxburch"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET USER FOLLOWERS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getfollowers.php?username=laurenxburch",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getfollowers.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "laurenxburch"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET USER POSTS TAGGED",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getuserpoststag.php?username=laurenxburch",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getuserpoststag.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "laurenxburch"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET  USER STORY (CURRENT)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getuserstories.php?username=laurenxburch",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getuserstories.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "laurenxburch"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET USER POST COMMENTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nobusware.it/api/getpostscomment.php?post_id=3065602285203889649&shortcode=CqLNQlANB3x",
+					"protocol": "http",
+					"host": [
+						"nobusware",
+						"it"
+					],
+					"path": [
+						"api",
+						"getpostscomment.php"
+					],
+					"query": [
+						{
+							"key": "post_id",
+							"value": "3065602285203889649"
+						},
+						{
+							"key": "shortcode",
+							"value": "CqLNQlANB3x"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
